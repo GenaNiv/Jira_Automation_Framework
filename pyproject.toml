@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jira-automation-framework"
+version = "0.1.0"
+description = "A Python framework to automate repetitive Jira tasks using Jira APIs."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+authors = [
+    { name = "Genady", email = "your.email@example.com" }
+]
+requires-python = ">=3.7"
+dependencies = [
+    "atlassian-python-api>=3.27.0",
+    "python-dotenv>=1.0.0"  # Add python-dotenv as a dependency
+]
+keywords = ["jira", "automation", "framework", "team-productivity"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.2.0"]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/jira-automation-framework"
+Documentation = "https://github.com/yourusername/jira-automation-framework/docs"
+Source = "https://github.com/yourusername/jira-automation-framework"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+jira = "jira_automation_framework.cli:main"

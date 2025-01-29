@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["download-attachments", "--csv", "C:/PROJECTS/TOOLS/jira_automation_framework/jira_numbers.csv", "--target-folder", "C:/PROJECTS/Greenleaf/REVIEW"]
+            //"args": ["upload", "--issue-key", "GRNL-167", "--file-path", "C:/PROJECTS/TOOLS/jira_automation_framework/coreaviGlGenTextures_v0.csv"]
+            //"args": ["upload-multiple", "--folder", "C:/PROJECTS/Greenleaf/TEST/temp", "--ticket-file", "C:/PROJECTS/Greenleaf/TEST/jira_numbers.csv"]
+        }
+    ]
+}
+

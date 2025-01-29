@@ -1,0 +1,2 @@
+atlassian-python-api>=3.27.0
+pytest>=7.2.0

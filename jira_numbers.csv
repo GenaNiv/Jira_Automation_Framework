@@ -1,0 +1,18 @@
+﻿Artifact,CSCI,Category,Ticket,Link,Function name
+LLR,VkCoreGL,GL_SC2,GRNL-218,GRNL-218,coreaviGlGetFramebufferAttachmentParameteriv
+LLR,VkCoreGL,GL_SC2,GRNL-219,GRNL-219,coreaviGlGetRenderbufferParameteriv
+LLR,VkCoreGL,GL_SC2,GRNL-220,GRNL-220,coreaviGlGetTexParameteriv
+LLR,VkCoreGL,GL_SC2,GRNL-221,GRNL-221,coreaviGlGetTexParameterfv
+LLR,VkCoreGL,GL_SC2,GRNL-222,GRNL-222,coreaviGlGetBufferParameteriv
+LLR,VkCoreGL,GL_SC2,GRNL-223,GRNL-223,S_coreaviGlGetVertexAttrib
+LLR,VkCoreGL,GL_SC2,GRNL-224,GRNL-224,coreaviGlGetVertexAttribfv
+LLR,VkCoreGL,GL_SC2,GRNL-225,GRNL-225,coreaviGlGetVertexAttribiv
+LLR,VkCoreGL,GL_SC2,GRNL-226,GRNL-226,coreaviGlGetVertexAttribPointerv
+LLR,VkCoreGL,GL_SC2,GRNL-227,GRNL-227,coreaviGlGetProgramiv
+LLR,VkCoreGL,GL_SC2,GRNL-228,GRNL-228,coreaviGlGetProgramInfoLog
+LLR,VkCoreGL,GL_SC2,GRNL-229,GRNL-229,S_coreaviGlGetUniform
+LLR,VkCoreGL,GL_SC2,GRNL-230,GRNL-230,coreaviGlGetnUniformfv
+LLR,VkCoreGL,GL_SC2,GRNL-231,GRNL-231,coreaviGlGetnUniformiv
+LLR,VkCoreGL,GL_SC2,GRNL-232,GRNL-232,coreaviGlGetGraphicsResetStatus
+LLR,VkCoreGL,GL_SC2,GRNL-233,GRNL-233,coreaviGlInitTextureList
+LLR,VkCoreGL,GL_SC2,GRNL-234,GRNL-234,coreavigl_destroyContextTexture
