@@ -1,0 +1,5 @@
+{
+    "jira_base_url": "atlassian url",
+    "jira_username": "user name",
+    "jira_api_token": "token"
+}
